@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var str = "hello this is me"
+
 var z = 5 //For global scope we use var keyword
 var g int //if global variable is not assigned any value ,then we have to mention its type,otherwise we will get error
 func main() {
@@ -14,5 +16,7 @@ func main() {
 }
 func foo() {
 	fmt.Println("z again=", z)
+	fmt.Printf("Data type of variable z=%T\n", z)
 	fmt.Println("g=", g)
+	fmt.Println(str)
 }
