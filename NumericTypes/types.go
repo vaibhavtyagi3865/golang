@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-var x1 uint8  //range 0 to 127
+var x1 uint8  //range 0 to 255
 var x2 int8   //range -128 to 127
 var x3 uint16 //range 0 to 65535
 func main() {
