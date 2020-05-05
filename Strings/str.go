@@ -6,7 +6,7 @@ var str string
 var f uint=7
 func main() {
 	str="Hello World"
-	ar:=[]uint8(str)//type conversion 
+	ar:=[]uint8(str)//type conversion
 	fmt.Println(len(ar))
 
 	for i:=0;i<len(ar);i++{
